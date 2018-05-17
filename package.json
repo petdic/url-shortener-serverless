@@ -1,0 +1,22 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petdic/url-shortener-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petdic/url-shortener-serverless/issues"
+  },
+  "homepage": "https://github.com/petdic/url-shortener-serverless#readme",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
+}
