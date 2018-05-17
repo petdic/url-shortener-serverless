@@ -18,7 +18,7 @@ module.exports.handler = (event, context, callback) =>{
         {
             statusCode: 200,
             body: base_page,
-            headers: {'Content-Type': 'text/html'}, 
+            headers: {'Content-Type': 'text/html'} 
         }
     );
 }
