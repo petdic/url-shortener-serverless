@@ -34,3 +34,8 @@ functions:
       URL_INSTALL: https:://serverless.com/framework/docs/providers/aws/guide/installation/
       URL_ABCD: http://serverless.com/
       URL_AWS: https://aws.amazon.com/
+
+resources: 
+  Resources:
+    MyTestBucket:
+      Type: "AWS::S3::Bucket"
