@@ -10,6 +10,7 @@ provider:
   iamRoleStatements:
     - Action:
         - dynamodb:GetItem
+        - dynamodb:PutItem
       Resource: "arn:aws:dynamodb:us-east-1:417619825713:table/dev-shortened-urls"
       Effect: Allow  
 
