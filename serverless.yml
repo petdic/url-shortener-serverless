@@ -28,7 +28,7 @@ provider:
             - "arn:aws:dynamodb:"
             - Ref: "AWS:Region"
             - ":"
-            - Ref: "AWS:AccountID"
+            - Ref: "AWS:AccountId"
             - ":table/"
             - Ref: LinkDB
       Effect: Allow  
